@@ -1,0 +1,115 @@
+body{
+	margin: 0px;
+}
+section{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 2%;
+}
+label{
+	text-align: center;
+	font-size: 1.5em;
+}
+section aside{
+	width: 50%;
+}
+input[type='search']{
+	border: solid 2px blue;
+	height: 60px;
+	width: 100%;
+	background-color: #b7b8cd;
+	border: none;
+	font-size: 2em;
+	border-bottom-left-radius: 5% 20%;
+	border-top-left-radius: 5% 20%;
+}
+input[type='submit']{
+	background-color: #48980f;
+	height: 60px;
+	border-bottom-right-radius: 10% 20%;
+	border-top-right-radius: 10% 20%;
+}
+table{
+	display: flex;
+	justify-content: space-around;
+}
+aside>img{
+	width: 100%;
+}
+#diaporama{
+	background-image: url(Images/Image_longue.png);
+	width: 700px;
+	height: 500px;
+
+	webkit-animation-name: diaporama;
+	webkit-animation-duration: 10s;
+	webkit-animation-timing-function: linear;
+	webkit-animation-iteration-count: infinite;
+	webkit-animation-direction: normal;
+
+	moz-animation-name: diaporama;
+	moz-animation-duration: 10s;
+	moz-animation-timing-function: linear;
+	moz-animation-iteration-count: infinite;
+	moz-animation-direction: normal;
+
+	animation-name: diaporama;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+@-webkit-keyframes diaporama{
+	0%{background-position: 0px 0px;}
+	15%{background-position: 0px 0px;}
+	20%{background-position: -700px 0px;}
+	35%{background-position: -700px 0px;}
+	40%{background-position: -1400px 0px;}
+	55%{background-position: -1400px 0px;}
+	60%{background-position: -2100px 0px;}
+	75%{background-position: -2100px 0px;}
+	80%{background-position: -2800px 0px;}
+	95%{background-position: -2800px 0px;}
+	100%{background-position: -3500px 0px;}
+}
+@-moz-keyframes diaporama{
+	0%{background-position: 0px 0px;}
+	15%{background-position: 0px 0px;}
+	20%{background-position: -700px 0px;}
+	35%{background-position: -700px 0px;}
+	40%{background-position: -1400px 0px;}
+	55%{background-position: -1400px 0px;}
+	60%{background-position: -2100px 0px;}
+	75%{background-position: -2100px 0px;}
+	80%{background-position: -2800px 0px;}
+	95%{background-position: -2800px 0px;}
+	100%{background-position: -3500px 0px;}
+}
+@keyframes diaporama{
+	0%{background-position: 0px 0px;}
+	15%{background-position: 0px 0px;}
+	20%{background-position: -700px 0px;}
+	35%{background-position: -700px 0px;}
+	40%{background-position: -1400px 0px;}
+	55%{background-position: -1400px 0px;}
+	60%{background-position: -2100px 0px;}
+	75%{background-position: -2100px 0px;}
+	80%{background-position: -2800px 0px;}
+	95%{background-position: -2800px 0px;}
+	100%{background-position: -3500px 0px;}
+}
+form>div{
+	text-align: center;
+}
+form{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#conseil{
+	color: white;
+	/*margin-top: 60%;*/
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+}
